@@ -2,8 +2,6 @@
 
 Welcome to my **modern and futuristic** portfolio website! Built with **React.js, Three.js, GSAP, and Tailwind CSS**, this portfolio showcases my skills, projects, and journey as a developer.
 
-## 🌍 Live Demo
-🔗 [View Portfolio](https://hknain.github.io/Portfolio/)
 
 ## 📌 Features
 - **Interactive Hero Section** with animated neon text
