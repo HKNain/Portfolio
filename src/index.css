@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.neon-text {
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+.timeline-item:hover .bg-cyan-500 {
+  text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+}
+
+.timeline-item:hover .bg-gray-900 {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* In index.css or App.css */
+.timeline-item {
+  background-color: rgba(255, 255, 255, 0.1); /* Add this to make it visible */
+}
+
+html {
+  scroll-behavior: smooth;
+}
