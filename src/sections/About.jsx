@@ -40,7 +40,7 @@ export default function About() {
 
     // GSAP ScrollTrigger for number facts
     gsap.from(".fact-item", {
-      opacity: 1,
+      opacity: 0,
       y: 50,
       duration: 1,
       stagger: 0.3,
